@@ -13,9 +13,13 @@
     "index.css"
   ],
   "images": [
-    "images/iphone-5.png",
-    "images/iphone-5-no-shadow.png",
-    "images/iphone-5-reflection.png",
-    "images/iphone-5-glare.png"
+    "images/iphone-5-portrait.png",
+    "images/iphone-5-portrait-no-shadow.png",
+    "images/iphone-5-portrait-reflection.png",
+    "images/iphone-5-portrait-glare.png",
+    "images/iphone-5-landscape.png",
+    "images/iphone-5-landscape-no-shadow.png",
+    "images/iphone-5-landscape-reflection.png",
+    "images/iphone-5-landscape-glare.png"
   ]
 }

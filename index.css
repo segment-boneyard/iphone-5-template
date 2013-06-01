@@ -12,8 +12,7 @@
   width: 388px;
   height: 801px;
   margin: -4px -6px -3px -6px; /* line up iphone edges with box by default */
-  background: url(images/iphone-5.png) top left no-repeat transparent;
-  background-size: 100% 100%; /* always cover it */
+  background: url(images/iphone-5-portrait.png) top left no-repeat transparent;
 }
 
 
@@ -26,10 +25,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 388px;
-  height: 798px;
-  background: url(images/iphone-5-glare.png) top left no-repeat transparent;
-  background-size: 100% 100%;
+  right: 0;
+  bottom: 0;
+  background: url(images/iphone-5-portrait-glare.png) top left no-repeat transparent;
 }
 
 
@@ -48,17 +46,51 @@
 
 
 /**
+ * Orientation.
+ */
+
+.iphone-5-template[data-orientation="landscape"] {
+  width: 806px;
+  height: 387px;
+  background-image: url(images/iphone-5-landscape.png);
+}
+
+.iphone-5-template[data-orientation="landscape"]::after {
+  background-image: url(images/iphone-5-landscape-glare.png);
+}
+
+.iphone-5-template[data-orientation="landscape"] .iphone-5-template-body {
+  width: 568px;
+  height: 320px;
+  top: 34px;
+  left: 118px;
+}
+
+
+/**
  * Variations.
  */
 
 .iphone-5-template[data-variation="no-shadow"] {
   height: 798px;
   margin-bottom: 0;
-  background-image: url(images/iphone-5-no-shadow.png);
+  background-image: url(images/iphone-5-portrait-no-shadow.png);
 }
 
 .iphone-5-template[data-variation="reflection"] {
   height: 906px;
   margin-bottom: -108px; /* account for shadow and reflection */
-  background-image: url(images/iphone-5-reflection.png);
+  background-image: url(images/iphone-5-portrait-reflection.png);
+}
+
+.iphone-5-template[data-variation="no-shadow"][data-orientation="landscape"] {
+  height: 381px;
+  margin-bottom: 0;
+  background-image: url(images/iphone-5-landscape-no-shadow.png);
+}
+
+.iphone-5-template[data-variation="reflection"][data-orientation="landscape"] {
+  height: 481px;
+  margin-bottom: -108px; /* account for shadow and reflection */
+  background-image: url(images/iphone-5-landscape-reflection.png);
 }
