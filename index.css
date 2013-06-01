@@ -54,9 +54,11 @@
 .iphone-5-template[data-variation="shadow"] {
   height: 801px;
   margin-bottom: -3px; /* account for shadow */
+  background-image: url(images/iphone-5-shadow.png);
 }
 
 .iphone-5-template[data-variation="reflection"] {
   height: 906px;
   margin-bottom: -108px; /* account for shadow and reflection */
+  background-image: url(images/iphone-5-reflection.png);
 }
