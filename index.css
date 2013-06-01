@@ -10,8 +10,8 @@
   position: relative;
   display: block;
   width: 388px;
-  height: 798px;
-  margin: -4px -6px 0 -6px; /* line up iphone edges with box by default */
+  height: 801px;
+  margin: -4px -6px -3px -6px; /* line up iphone edges with box by default */
   background: url(images/iphone-5.png) top left no-repeat transparent;
   background-size: 100% 100%; /* always cover it */
 }
@@ -51,10 +51,10 @@
  * Variations.
  */
 
-.iphone-5-template[data-variation="shadow"] {
-  height: 801px;
-  margin-bottom: -3px; /* account for shadow */
-  background-image: url(images/iphone-5-shadow.png);
+.iphone-5-template[data-variation="no-shadow"] {
+  height: 798px;
+  margin-bottom: 0;
+  background-image: url(images/iphone-5-no-shadow.png);
 }
 
 .iphone-5-template[data-variation="reflection"] {
