@@ -11,6 +11,7 @@
   display: block;
   width: 388px;
   height: 906px;
+  margin: -4px -6px 0 -6px; /* line up iphone edges with box by default */
   background: url(images/iphone-5.png) no-repeat transparent;
   background-size: 100% 100%; /* always cover it */
 }
@@ -43,4 +44,17 @@
   top: 118px;
   left: 34px;
   overflow: hidden;
+}
+
+
+/**
+ * Variations.
+ */
+
+.iphone-5-template[data-variation="shadow"] {
+  margin-bottom: -3px; /* account for shadow */
+}
+
+.iphone-5-template[data-variation="reflection"] {
+  margin-bottom: -108px; /* account for shadow and reflection */
 }
