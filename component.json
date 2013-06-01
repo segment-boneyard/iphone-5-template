@@ -1,0 +1,19 @@
+{
+  "name": "iphone-5-template",
+  "repo": "segmentio/iphone-5-template",
+  "description": "A HTML/CSS template for easily add iPhone rendering to your site.",
+  "version": "0.0.1",
+  "keywords": [
+    "iphone",
+    "template"
+  ],
+  "license": "MIT",
+  "scripts": [],
+  "styles": [
+    "index.css"
+  ],
+  "images": [
+    "images/iphone-5.png",
+    "images/iphone-5-glare.png"
+  ]
+}

@@ -1,0 +1,46 @@
+
+/**
+ * iPhone 5 Template.
+ *
+ *    *.iphone-5-template
+ *      *.iphone-5-template-body
+ */
+
+.iphone-5-template {
+  position: relative;
+  display: block;
+  width: 388px;
+  height: 906px;
+  background: url(images/iphone-5.png) no-repeat transparent;
+  background-size: 100% 100%; /* always cover it */
+}
+
+
+/**
+ * The glare. By default, `::after` should put it on top of its contents.
+ */
+
+.iphone-5-template::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(images/iphone-5-glare.png) no-repeat transparent;
+  background-size: 100% 100%;
+}
+
+
+/**
+ * Screen content.
+ */
+
+.iphone-5-template-body {
+  position: absolute;
+  width: 320px;
+  height: 568px;
+  top: 118px;
+  left: 34px;
+  overflow: hidden;
+}
