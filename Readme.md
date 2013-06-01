@@ -1,7 +1,7 @@
 
 # iphone-5-template
 
-  A HTML/CSS template for easily adding an iPhone template rendering to your site, which you can then fill with HTML/CSS content.
+  An HTML template for easily adding an iPhone rendering to your site, which you can then fill with your own content.
 
 ## Installation
 
